@@ -1,5 +1,6 @@
-package com.alexandros.security.model;
+package com.alexandros.security.entity;
 
+import com.alexandros.security.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -73,6 +74,6 @@ public class User implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return active;
     }
 }
