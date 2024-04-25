@@ -20,3 +20,7 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+jwt:
+  token:
+    secret: YM6NgEfajcaJj8KweqZ9ANhaPK6C2zgGasARAbwSFzmsFJey4jK8rMnyjr2ZbJnLz9QzH4mRuZMucghbApEy5CjZ46xEmwT2HasCLfjyzST3WtsWNyyuKMUQ47LsxrJUrnJaEbWpCeuGmQ4MCRAjDAc9zGKCwEC4QDEJuKnaFXn843SsYawWBoDEykDeWSzgME2zqpPwZeBu2HoTQgwbUbHtaCqXBUfDyT8BgZBLmbnNHzZXL9PgtxwaatHomycN

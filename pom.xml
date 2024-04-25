@@ -22,6 +22,7 @@
 		<!-- TODO update the version to make it support PostgreSQL 16.2 and make plugin work -->
 		<flyway.version>10.11.1</flyway.version>
 		<postgresql.version>42.7.3</postgresql.version>
+		<jjwt-api.version>0.12.5</jjwt-api.version>
 	</properties>
 
 
@@ -43,6 +44,21 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>${postgresql.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>${jjwt-api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>${jjwt-api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>${jjwt-api.version}</version>
 		</dependency>
 		<!--
 		<dependency>
